@@ -1,0 +1,28 @@
+.userBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.headerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}

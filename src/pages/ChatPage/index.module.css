@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.chatBox {
+  margin: auto;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 9px #80808057;
+}
+
+.title {
+  font-size: 20px;
+  color: rgb(10, 71, 151);
+}
+.chatHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+.chatContent {
+  min-height: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+  background-color: #ececec;
+  padding: 20px;
+}
+
+.addMessage {
+  background-color: rgb(85, 85, 84);
+  padding: 10px;
+}
+
+.button {
+  padding: 15px;
+  margin-left: 10px;
+}
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  width: 100%;
+}
